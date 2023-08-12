@@ -1,0 +1,18 @@
+{
+  "name": "Программы сборки",
+  "icon": "pneumaticcraft:assembly_program_laser",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Программы сборки необходимо вставить в $(l:manufacturing/assembly_system)Блок управления/$ для указания типа операции, которую нужно выполнить. Их нельзя скрафтить, они должны быть получены через торговлю у $(thing)Механиковых жителей/$ или с помощью $(l:tools/amadron_tablet)Планшета Амадрона/$."
+    },
+    {
+      "type": "spotlight",
+      "title": "Сверло и Лазер",
+      "item": "pneumaticcraft:assembly_program_drill_laser",
+      "text": "$(item)Программа сборки: Сверло и Лазер/$ имеет особенность. Она не обрабатывает одновременно сверлильные и лазерные рецепты, а предоставляет однопрограммный метод для двухэтапных рецептов, которые включают сверлильный $(italic)и/$ лазерный этапы, например $(l:tubes/pressure_tubes#advanced)Продвинутые давленионопроводы/$."
+    }
+  ]
+}

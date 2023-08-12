@@ -1,0 +1,16 @@
+{
+  "name": "Травящая кислота",
+  "icon": "pneumaticcraft:etching_acid_bucket",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Травящая кислота используется для химической обработки $(l:components/pcb)печатных плат/$. Травящая кислота производится в $(l:manufacturing/pressure_chamber)Давильной Камере/$ и используется в $(l:manufacturing/etching_tank)Емкости для травления/$.$(p)Дополнительную информацию о производстве печатных плат см. в разделе $(l:components/pcb)печатные платы/$."
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/etching_acid"
+    }
+  ]
+}

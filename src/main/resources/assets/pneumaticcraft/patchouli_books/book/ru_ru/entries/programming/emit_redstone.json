@@ -1,0 +1,18 @@
+{
+    "name": "Виджет испускания красного камня",
+    "icon": "pneumaticcraft:textures/progwidgets/emit_redstone_piece.png",
+    "category": "pneumaticcraft:widget_interact",
+    "advancement": "pneumaticcraft:programmer",
+    "pages": [{
+            "type": "text",
+            "text": "С помощью этого виджета вы можете заставить $(l:tools/drone)Дрона/$ испускать $(#f00)сигнал красного камня/$. Вы можете указать стороны, с которых он испускает сигнал, щелкнув $(thing)правой кнопкой/$ мыши по виджету и настроив в появившемся интерфейсе настройки. Уровень сигнала красного камня, который будет испущен, указывается прикреплением виджета $(l:programming/text)Текст/$ с числом от 0 до 15."
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/progwidgets/emit_redstone_piece.png"
+            ],
+            "text": "$(italic)Виджет испускания красного камня/$"
+        }
+    ]
+}

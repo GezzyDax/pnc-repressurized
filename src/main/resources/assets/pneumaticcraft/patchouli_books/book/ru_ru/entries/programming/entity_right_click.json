@@ -1,0 +1,18 @@
+{
+    "name": "Виджет клика по сущности",
+    "icon": "pneumaticcraft:textures/progwidgets/entity_right_click_piece.png",
+    "category": "pneumaticcraft:widget_interact",
+    "advancement": "pneumaticcraft:programmer",
+    "pages": [{
+            "type": "text",
+            "text": "$(l:tools/drone)Дрон/$ будет $(thing)кликать правой кнопкой мыши/$ предмет в своем первом слоте инвентаря для каждой сущности в указанной $(l:programming/area)области/$, один раз. Это можно использовать для стрижки овец, дойки коров, разведения животных и многого другого!$(p)Имейте в виду, что все виджеты $(l:programming/area)области/$, подключенные к этому виджету, должны иметь тип области $(thing)Box/$; это единственная поддерживаемая форма. Однако возможно создать различные формы, используя белые и черные списки областей."
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/progwidgets/entity_right_click_piece.png"
+            ],
+            "text": "$(italic)Тык/$"
+        }
+    ]
+}

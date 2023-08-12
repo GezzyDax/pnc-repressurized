@@ -1,0 +1,67 @@
+{
+  "name": "Pressure Chamber",
+  "icon": "pneumaticcraft:pressure_chamber_wall",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Pressure Chamber/$ - это многофункциональная многоблочная структура, используемая для сжатия различных материалов в другие материалы. Благодаря своей большой вместимости для воздуха, она также может служить полезной \"батареей\".$(p)Для построения многофункционального многоблока применяются следующие правила:$(li)Общий многоблок должен быть полостью размерами 3x3x3, 4x4x4 или 5x5x5."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(thing)Края/$ и $(thing)углы/$ должны состоять из $(item)Pressure Chamber Walls/$ или $(item)Pressure Chamber Glass/$.$(li)$(thing)Грани/$ должны состоять из $(item)Pressure Chamber Walls/$, $(item)Pressure Chamber Glass/$, $(item)Pressure Chamber Valves/$ или $(l:manufacturing/pressure_chamber#interface)Pressure Chamber Interfaces/$.$(li)Требуется как минимум один $(item)Pressure Chamber Valve/$.$(li)Рекомендуется как минимум два $(item)Pressure Chamber Interfaces/$ (один должен смотреть внутрь, другой - наружу)."
+    },
+    {
+      "type": "multiblock",
+      "name": "Pressure Chamber",
+      "multiblock_id": "pneumaticcraft:pressure_chamber_3",
+      "text": "Возможный многофункциональный многоблок размерами 3x3x3 с 1 $(item)valve/$ и 2 $(item)interfaces/$"
+    },
+    {
+      "type": "multiblock",
+      "name": "Pressure Chamber",
+      "multiblock_id": "pneumaticcraft:pressure_chamber_4",
+      "text": "Возможный многофункциональный многоблок размерами 4x4x4 с 2 $(item)valves/$ и 2 $(item)interfaces/$"
+    },
+    {
+      "type": "multiblock",
+      "name": "Pressure Chamber",
+      "multiblock_id": "pneumaticcraft:pressure_chamber_5",
+      "text": "Возможный многофункциональный многоблок размерами 5x5x5 с 4 $(item)valves/$ и 4 $(item)interfaces/$"
+    },
+    {
+      "type": "spotlight",
+      "anchor": "interface",
+      "item": "pneumaticcraft:pressure_chamber_interface",
+      "text": "$(item)Pressure Chamber Interface/$ используется для автоматизации вставки и извлечения предметов в $(thing)Pressure Chamber/$. Предметы $(italic)необходимо/$ подавать с помощью $(item)Hoppers/$ или других систем трубопроводов модов. У вас должно быть как минимум два интерфейса: один с выходом 'I' (входной интерфейс), и один с выходом 'O' (выходной интерфейс)."
+    },
+    {
+      "type": "text",
+      "text": "Входные интерфейсы примут только предметы, которые являются ингредиентами для рецептов Pressure Chamber. Выходные интерфейсы (по умолчанию) будут только экспортировать созданные предметы, но в интерфейсе есть кнопка, позволяющая экспортировать $(italic)все/$ предметы при необходимости.$(p)$(italic)Обратите внимание, что это поведение изменилось с версии 1.12.2 и теперь гораздо более удобно./$"
+    },
+    {
+      "type": "text",
+      "text": "Выходные интерфейсы $(item)Interfaces/$ будут автоматически выгружать предметы в смежный инвентарь; это может включать или не включать трубы других модов, в зависимости от того, похожи ли они на инвентарь для интерфейса.$(p)За каждый переданный предмет будет расходоваться 1000 мл $(l:base_concepts/pressure)воздуха/$. Это означает, что для передачи полного стека интерфейсу потребуется 64000 мл воздуха (4 бара для базовой многоблочной структуры размером 3x3x3). Если интерфейс кажется 'застрявшим', это значит, что он ждет, пока накопится больше воздуха."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Советы/$$(li)При сжатии $(item)Iron/$ сжимайте $(item)Block of Iron/$, так как для перемещения предметов внутрь и изнутри многоблока потребуется всего 1/9 объема воздуха.$(li)Если вам нужно быстро давить камеру большого размера, дополнительные клапаны могут пригодиться (при условии, что у вас есть достаточное количество компрессоров для производства необходимого объема воздуха)."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pressure_chamber_wall",
+      "recipe2": "pneumaticcraft:pressure_chamber_glass"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pressure_chamber_interface",
+      "recipe2": "pneumaticcraft:pressure_chamber_valve_x1"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pressure_chamber_valve_x4",
+      "recipe2": "pneumaticcraft:pressure_chamber_valve"
+    }
+  ]
+}

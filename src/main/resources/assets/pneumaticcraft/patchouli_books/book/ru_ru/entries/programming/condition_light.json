@@ -1,0 +1,19 @@
+{
+  "name": "Условие: Свет",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_light_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это виджет $(l:programming/conditions)условия/$.$(p)Виджет $(thing)Условие: Свет/$ позволяет вам (удаленно) проверить, соответствует ли уровень освещенности блока(ов) в подключенном виджете $(l:programming/area)Область/$ заданному пороговому значению освещенности."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_light_piece.png"
+      ],
+      "text": "$(italic)Виджет Условие: Свет/$"
+    }
+  ]
+}

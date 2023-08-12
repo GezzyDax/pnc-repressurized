@@ -1,0 +1,18 @@
+{
+    "name": "Виджет экспорта сущности",
+    "icon": "pneumaticcraft:textures/progwidgets/entity_export_piece.png",
+    "category": "pneumaticcraft:widget_interact",
+    "advancement": "pneumaticcraft:programmer",
+    "pages": [{
+            "type": "text",
+            "text": "$(l:tools/drone)Дрон/$ отправится в указанную $(l:programming/area)область/$ и отпустит несущуюся им сущность, при условии, что это разрешено (необязательно) $(l:base_concepts/entity_filter)Фильтром сущности/$, указанным в подключенном виджете $(l:programming/text)Текст/$.$(p)См. также виджет $(l:programming/entity_import)Импорта сущности/$."
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/progwidgets/entity_export_piece.png"
+            ],
+            "text": "$(italic)Виджет экспорта сущности/$"
+        }
+    ]
+}

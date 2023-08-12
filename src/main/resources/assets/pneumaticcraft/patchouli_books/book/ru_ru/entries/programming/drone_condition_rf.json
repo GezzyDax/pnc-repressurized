@@ -1,0 +1,18 @@
+{
+    "name": "Условие дрона: Энергия FE",
+    "icon": "pneumaticcraft:textures/progwidgets/condition_drone_rf_piece.png",
+    "category": "pneumaticcraft:widget_cond",
+    "advancement": "pneumaticcraft:programmer",
+    "pages": [{
+            "type": "text",
+            "text": "Это виджет $(l:programming/conditions)условия/$.$(p)Виджет $(thing)Условие дрона: Энергия FE/$ позволяет проверить количество $(thing)Энергии Forge (FE)/$, переносимой этим $(l:tools/drone)дроном/$.$(p)$(italic)Несмотря на свое название, этот виджет проверяет FE, а не RF (Redstone Flux). Название историческое./$"
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/progwidgets/condition_drone_rf_piece.png"
+            ],
+            "text": "$(italic)Виджет Условие дрона: Энергия FE/$"
+        }
+    ]
+}

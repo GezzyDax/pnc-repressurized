@@ -1,0 +1,18 @@
+{
+    "name": "Условие: Виджет Жидкости",
+    "icon": "pneumaticcraft:textures/progwidgets/condition_liquid_inventory_piece.png",
+    "category": "pneumaticcraft:widget_cond",
+    "advancement": "pneumaticcraft:programmer",
+    "pages": [{
+            "type": "text",
+            "text": "Это виджет $(l:programming/conditions)Условия/$.$(p)Виджет $(thing)Условие: Жидкость/$ позволяет вам (удаленно) проверить бак(и) или жидкостный блок(и) в подключенной $(l:programming/area)Области/$ на наличие определенного количества жидкости. Он будет учитывать только жидкость, разрешенную подключенным $(l:programming/liquid_filter)Фильтром жидкости/$ (не указывайте фильтр, чтобы разрешить любую жидкость)."
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/progwidgets/condition_liquid_inventory_piece.png"
+            ],
+            "text": "$(italic)Виджет Условие: Жидкость/$"
+        }
+    ]
+}
