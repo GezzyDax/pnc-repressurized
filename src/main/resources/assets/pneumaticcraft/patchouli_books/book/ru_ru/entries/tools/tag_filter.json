@@ -1,0 +1,10 @@
+{
+    "name": "Фильтр по тегам",
+    "icon": "pneumaticcraft:tag_filter",
+    "category": "pneumaticcraft:tools",
+    "advancement": "pneumaticcraft:root",
+    "pages": [{
+        "type": "text",
+        "text": "Смотрите $(l:machines/tag_workbench)Стол с тегами/$."
+    }]
+}

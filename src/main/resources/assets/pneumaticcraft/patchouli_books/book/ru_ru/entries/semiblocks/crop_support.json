@@ -1,0 +1,16 @@
+{
+    "name": "Поддержка урожая",
+    "icon": "pneumaticcraft:crop_support",
+    "category": "pneumaticcraft:semiblocks",
+    "advancement": "pneumaticcraft:root",
+    "pages": [{
+            "type": "text",
+            "text": "Помещая этот предмет на пашню с $(thing)культурой/$, он ускоряет скорость роста этой культуры. $(thing)Зеленые частицы/$ выделяются, когда $(item)Поддержка урожая/$ ускоряет рост.$(p)Чтобы удалить $(item)Поддержку урожая/$, либо сломайте блок под ней, либо $(thing)прокрадывайтесь и щелкните правой кнопкой/$ по блоку с помощью $(l:tools/logistics_configurator)Конфигуратора логистики/$ или другой $(item)Поддержки урожая/$."
+        },
+        {
+            "type": "crafting",
+            "text": "Крафт Поддержки урожая",
+            "recipe": "pneumaticcraft:crop_support"
+        }
+    ]
+}

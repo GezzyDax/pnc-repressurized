@@ -1,0 +1,38 @@
+{
+  "name": "Вакуумный насос",
+  "icon": "pneumaticcraft:vacuum_pump",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)Вакуумный насос/$ - это устройство, используемое для создания... вакуума. Для этого машина потребляет $(l:base_concepts/pressure)сжатый воздух/$.$(p)Положительное давление следует применять на стороне $(#0c0)'+'/$; когда достигается минимальное рабочее давление, $(item)вакуумный насос/$ начинает откачивать воздух, и давление на стороне $(#c00)'-'/$ падает до минимума -1.0 бар, что является вакуумом."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/vacuum_pump.png"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Применения",
+      "text": "Существуют следующие применения отрицательного (вакуумного) давления:$(li)Разчарование: поместите $(item)зачарованный предмет/$ или $(item)Книгу с зачарованием/$ с более чем одним зачарованием и обычную $(item)книгу/$ в $(l:manufacturing/pressure_chamber)Камеру давления/$ и обеспечьте достаточное отрицательное давление в камере. Одно случайное зачарование передастся с предмета на книгу.$(li)$(l:tubes/air_grate_module)Модуль воздушной решетки/$, получающий отрицательное давление, привлечет сущностей к себе."
+    },
+    {
+      "type": "text",
+      "title": "Применения (продолжение)",
+      "text": "$(li)И вакуумная ловушка $(l:spawning/vacuum_trap)Vacuum Trap/$ и извлекатель спавнеров $(l:spawning/spawner_extractor)Spawner Extractor/$, устройства, необходимые для создания и использования $(l:spawning/pressurized_spawner)давление спавнеров/$, требуют отрицательного давления для работы."
+    },
+    {
+      "type": "crafting",
+      "text": "Крафт вакуумного насоса",
+      "recipe": "pneumaticcraft:vacuum_pump"
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "header": "Разчарование в вакууме",
+      "recipe": "pneumaticcraft:pressure_chamber/pressure_chamber_disenchanting"
+    }
+  ]
+}

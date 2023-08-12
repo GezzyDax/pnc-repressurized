@@ -1,0 +1,32 @@
+{
+    "name": "Инструмент GPS",
+    "icon": "pneumaticcraft:gps_tool",
+    "category": "pneumaticcraft:tools",
+    "advancement": "pneumaticcraft:plastic",
+    "pages": [{
+            "type": "text",
+            "text": "Инструмент $(item)GPS/$ - это предмет, который при $(thing)щелчке правой кнопкой мыши/$ по блоку сохраняет координаты этого блока. Эти данные используются в нескольких местах в $(pncr); см. следующую страницу.$(p)$(thing)При щелчке правой кнопкой мыши/$ на $(item)GPS инструмент/$ в воздухе открывается интерфейс, позволяющий непосредственно настроить координаты.$(p)Если $(item)GPS инструмент/$ удерживать в руке, выделенный блок будет подсвечен."
+        },
+        {
+            "type": "text",
+            "anchor": "variables",
+            "title": "Связывание Глобальных Переменных",
+            "text": "$(l:programming/variables#global)Глобальные переменные/$ - это продвинутая функция $(l:base_concepts/drone)дронов/$, доступная через $(l:programming/coordinate_operator)координатный оператор/$.$(p)$(thing)При щелчке правой кнопкой мыши/$ на $(item)GPS инструмент/$ в воздухе, можно ввести имя переменной.$(p)Теперь этот $(thing)глобальная переменная/$ будет отслеживать значение выбранной координаты $(item)GPS инструмента/$. Это можно использовать для написания $(thing)программ для дронов/$, которые используют динамические области."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "pneumaticcraft:machines/air_cannon",
+                "pneumaticcraft:machines/universal_sensor",
+                "pneumaticcraft:programming/programmer",
+                "pneumaticcraft:tools/amadron_tablet"
+            ],
+            "text": "Машины и инструменты, которые используют $(item)GPS инструмент/$."
+        },
+        {
+            "type": "crafting",
+            "text": "Создание GPS инструмента",
+            "recipe": "pneumaticcraft:gps_tool"
+        }
+    ]
+}

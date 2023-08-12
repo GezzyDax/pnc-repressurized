@@ -1,0 +1,24 @@
+{
+    "name": "Тепловая рамка",
+    "icon": "pneumaticcraft:heat_frame",
+    "category": "pneumaticcraft:semiblocks",
+    "advancement": "pneumaticcraft:root",
+    "pages": [{
+            "type": "text",
+            "text": "Этот предмет можно поместить в любой $(thing)инвентарь/$. Когда он нагревается смежным $(l:base_concepts/heat)источником тепла/$, он попытается переплавить любой предмет в инвентаре (или заморозить его при охлаждении). Это удастся только в том случае, если в инвентаре есть место для получившегося предмета. Чем больше тепла применяется, тем быстрее проходит процесс переплавки, до максимальной скорости в 1 предмет в секунду. Аналогично, чем больше охлаждение, тем быстрее замораживаются предметы."
+        },
+        {
+            "type": "link",
+            "flag": "mod:crafttweaker",
+            "title": "CraftTweaker",
+            "text": "У $(thing)Тепловой рамки/$ есть поддержка $(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$ для охлаждения (для переплавки используются обычные рецепты $(item)Печки/$): рецепты можно добавлять и удалять. Чтобы узнать больше информации, перейдите по ссылке ниже.",
+            "url": "https://crafttweaker.readthedocs.io/en/latest/#Mods/PneumaticCraft_Repressurized/Heat_Frame_Cooling/",
+            "link_text": "Документация CraftTweaker"
+        },
+        {
+            "type": "crafting",
+            "text": "Крафт Тепловой рамки",
+            "recipe": "pneumaticcraft:heat_frame"
+        }
+    ]
+}

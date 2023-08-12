@@ -1,0 +1,17 @@
+{
+  "name": "Витрина",
+  "icon": "pneumaticcraft:display_shelf",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Display Shelf/$ работает точно так же, как его крупный брат $(l:machines/display_table)Display Table/$, но имеет половинную высоту. Кроме того, он не будет отображать свои ножки, если блок под ним не имеет твердой верхней поверхности."
+    },
+    {
+      "type": "crafting",
+      "text": "Изготовление Витрина",
+      "recipe": "pneumaticcraft:display_shelf"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Модули Труб",
+    "icon": "minecraft:book",
+    "category": "pneumaticcraft:tubes",
+    "advancement": "pneumaticcraft:pressure_tube",
+    "priority": "true",
+    "pages": [{
+            "type": "text",
+            "text": "Модули $(thing)труб/$ - это компоненты, которые можно прикрепить к $(l:tubes/pressure_tubes)Пневматическим Трубам/$, либо к боковой стороне трубы, либо $(thing)встроенными/$ в трубу.$(p)Установленные модули можно удалить, выполнив $(thing)присяд+щелчок правой кнопкой мыши/$ с помощью $(l:tools/pneumatic_wrench)Пневматического Гаечного Ключа/$."
+        },
+        {
+            "anchor": "inline",
+            "type": "text",
+            "title": "Встроенные Модули",
+            "text": "Модули $(thing)встроенные/$ являются немного особенными:$(li)Пневматическая Труба может иметь только один встроенный модуль.$(li)Пневматическая Труба с встроенным модулем не может иметь других модулей.$(li)Пневматическая Труба с встроенным модулем может быть подключена только с двух сторон: с двух концов встроенного модуля.$(li)Встроенные модули могут быть установлены $(italic)только/$ на открытый конец Пневматической Трубы."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "pneumaticcraft:tubes/safety_module",
+                "pneumaticcraft:tubes/pressure_gauge_module",
+                "pneumaticcraft:tubes/flow_detector_module",
+                "pneumaticcraft:tubes/air_grate_module",
+                "pneumaticcraft:tubes/regulator_module",
+                "pneumaticcraft:tubes/charging_module",
+                "pneumaticcraft:tubes/logistics_module",
+                "pneumaticcraft:tubes/redstone_module",
+                "pneumaticcraft:tubes/vacuum_module"
+            ]
+        }
+    ]
+}

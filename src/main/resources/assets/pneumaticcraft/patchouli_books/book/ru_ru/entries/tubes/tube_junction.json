@@ -1,0 +1,16 @@
+{
+    "name": "Трубное Соединение",
+    "icon": "pneumaticcraft:tube_junction",
+    "category": "pneumaticcraft:tubes",
+    "advancement": "pneumaticcraft:pressure_tube",
+    "pages": [{
+            "type": "text",
+            "text": "$(thing)Трубное Соединение/$ - это очень простое устройство, которое позволяет двум $(l:tubes/pressure_tubes)Пневматическим Трубам/$ (любого $(l:base_concepts/pressure_tiers)уровня давления/$) пересекаться, не подключаясь друг к другу."
+        },
+        {
+            "type": "crafting",
+            "text": "Крафт Трубного Соединения",
+            "recipe": "pneumaticcraft:tube_junction"
+        }
+    ]
+}
