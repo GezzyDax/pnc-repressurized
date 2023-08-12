@@ -1,0 +1,16 @@
+{
+  "name": "Матрица Улучшений",
+  "icon": "pneumaticcraft:upgrade_matrix",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:tp_plant",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Матрица Улучшений ($(item)Upgrade Matrix/$) может использоваться вместо $(item)Лазурита/$ для создания любых $(l:base_concepts/upgrades)улучшений/$. Преимущество использования Матрицы Улучшений заключается в снижении расхода Лазурита, что может быть полезно, если у вас ограниченное количество Лазурита и много улучшений, которые нужно создать."
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/upgrade_matrix"
+    }
+  ]
+}

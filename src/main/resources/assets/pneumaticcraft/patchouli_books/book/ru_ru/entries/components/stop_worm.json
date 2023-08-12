@@ -1,0 +1,17 @@
+{
+  "name": "STOP! Worm",
+  "icon": "pneumaticcraft:stop_worm",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это особый компонент, используемый только при попытке взлома $(l:machines/security_station)Станций Безопасности/$. Его нельзя скрафтить, и он может быть найден только в сундуках подземелий или (редко) при обмене с жителями."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:stop_worm",
+      "text": "Применение $(thing)STOP! Worm/$ во время взлома временно замораживает $(l:components/network_components#diagnostic)Диагностическую Подпрограмму/$ станции, предотвращая прослеживание вас."
+    }
+  ]
+}

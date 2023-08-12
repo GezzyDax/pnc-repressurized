@@ -1,0 +1,6 @@
+{
+  "name": "Трубы и модули",
+  "description": "Трубы давления - это способ перемещения сжатого воздуха в $(pncr).",
+  "icon": "pneumaticcraft:pressure_tube",
+  "sortnum": 2
+}

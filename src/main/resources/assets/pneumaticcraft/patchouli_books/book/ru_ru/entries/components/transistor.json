@@ -1,0 +1,16 @@
+{
+  "name": "Транзистор",
+  "icon": "pneumaticcraft:transistor",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это компонент для создания других устройств. Сам по себе он не имеет никакого назначения."
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/transistor"
+    }
+  ]
+}

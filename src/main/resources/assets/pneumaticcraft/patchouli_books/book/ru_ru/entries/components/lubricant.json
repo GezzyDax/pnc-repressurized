@@ -1,0 +1,17 @@
+{
+  "name": "Lubricant",
+  "icon": "pneumaticcraft:lubricant_bucket",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:tp_plant",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Lubricant/$ необходим для создания $(l:base_concepts/upgrades#speed)Speed Upgrades/$.$(p)Он производится в $(l:manufacturing/thermopneumatic_processing_plant)Термопневматическом Процессоре/$ с помощью $(l:manufacturing/refinery)Дизеля/$ (или $(l:renewables/biodiesel)Биодизеля/$) и $(item)Красного Камня/$."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:lubricant_bucket",
+      "text": "$(italic)Скользкая жидкость/$"
+    }
+  ]
+}

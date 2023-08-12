@@ -1,0 +1,17 @@
+{
+  "name": "Ствол пушки",
+  "icon": "pneumaticcraft:cannon_barrel",
+  "category": "pneumaticcraft:компоненты",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это компонент для создания других устройств. Сам по себе не имеет никакого использования."
+    },
+    {
+      "type": "crafting",
+      "text": "Крафт ствола пушки",
+      "recipe": "pneumaticcraft:cannon_barrel"
+    }
+  ]
+}

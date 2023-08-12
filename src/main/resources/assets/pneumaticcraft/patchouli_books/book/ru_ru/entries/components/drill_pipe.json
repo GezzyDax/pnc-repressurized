@@ -1,0 +1,17 @@
+{
+  "name": "Труба для буровой установки",
+  "icon": "pneumaticcraft:drill_pipe",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Трубы для буровой установки ($(item)Drill Pipes/$) необходимы для $(l:machines/gas_lift)Газовой подъемной установки/$, чтобы пробурить скважину для добычи жидкости.$(p)Также они подходят для использования в общем строительстве, если вам это нравится."
+    },
+    {
+      "type": "crafting",
+      "text": "Крафт трубы для буровой установки",
+      "recipe": "pneumaticcraft:drill_pipe"
+    }
+  ]
+}

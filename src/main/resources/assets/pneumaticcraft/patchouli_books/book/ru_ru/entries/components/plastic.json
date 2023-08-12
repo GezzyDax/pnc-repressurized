@@ -1,0 +1,69 @@
+{
+  "name": "Пластик",
+  "icon": "pneumaticcraft:plastic_bucket",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:tp_plant",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Пластик является важным компонентом для крафта в $(pncr).$(p)Пластиковый расплав получается из $(l:manufacturing/refinery)ПСГ/$ и $(item)Камень/$ или из $(l:renewables/biodiesel)Биотопливо/$ и $(item)Древесный уголь/$ в $(l:manufacturing/thermopneumatic_processing_plant)Термопневматическом заводе/$."
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/plastic_from_lpg"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/plastic_from_biodiesel"
+    },
+    {
+      "type": "spotlight",
+      "title": "Пластиковый лист",
+      "item": "pneumaticcraft:plastic",
+      "flag": "pneumaticcraft:inWorldPlasticSolidification",
+      "text": "Пластиковый расплав можно легко застудить, вылив его в мир, и он превратится в $(item)Пластиковый лист/$ за полсекунды. Это очень просто автоматизировать с помощью $(l:machines/liquid_hopper)Жидкостного бункера/$ с $(l:base_concepts/upgrades#dispenser)Улучшением Диспенсера/$ и $(l:machines/omnidirectional_hopper)Омнидирекционного бункера/$."
+    },
+    {
+      "type": "spotlight",
+      "title": "Пластиковый лист",
+      "item": "pneumaticcraft:plastic",
+      "flag": "!pneumaticcraft:inWorldPlasticSolidification",
+      "text": "Пластиковые листы можно получить, поместив ведро или $(l:machines/tanks)бак/$ с пластиковым расплавом в инвентарь с прикрепленным $(l:semiblocks/heat_frame)Тепловой рамой/$ и охладив раму, желательно до -80C (чем холоднее, тем лучше). Из ведра или бака будет потребляться пластиковый расплав, и за каждые 1000 миллибакки пластикового расплава у вас будет шанс получить еще один $(item)Пластиковый лист/$."
+    },
+    {
+      "type": "text",
+      "title": "Улучшение выхода",
+      "flag": "pneumaticcraft:inWorldPlasticSolidification",
+      "text": "Альтернативным способом застывания $(item)Пластиковых листов/$ является помещение ведра или $(l:machines/tanks)бака/$ с пластиковым расплавом в инвентарь с прикрепленным $(l:semiblocks/heat_frame)Тепловой рамой/$ и охлаждение рамы до -80C (чем холоднее, тем лучше). Из ведра или бака будет потребляться пластиковый расплав, и за каждые 1000 миллибакки пластикового расплава у вас будет шанс получить еще один $(item)Пластиковый лист/$."
+    },
+    {
+      "type": "text",
+      "title": "Заметка о баках",
+      "text": "Несмотря на то, что $(pncr) жидкостные баки имеют слоты инвентаря и позволяют прикреплять к ним $(thing)Тепловые рамы/$, просто прикрепление рамы к баку с пластиковым расплавом не сработает; жидкостный бак должен находиться в форме предмета в инвентаре (сундук, и т. д.) с прикрепленной к нему $(l:semiblocks/heat_frame)Тепловой рамой/$."
+    },
+    {
+      "type": "spotlight",
+      "title": "Пластиковый строительный кирпич™",
+      "item": "pneumaticcraft:plastic_brick_red",
+      "text": "Эти кирпичи изготавливаются из $(item)Пластиковых листов/$ и любого красителя, и подходят для строительства.$(p)Не ходите по ним босиком, потому что это сильно болит!$(p)$(italic)Совместимы с другими ведущими марками строительных кирпичей./$"
+    },
+    {
+      "type": "spotlight",
+      "title": "Гладкий пластиковый строительный кирпич™",
+      "item": "pneumaticcraft:smooth_plastic_brick_red",
+      "text": "Гладкая версия $(item)Пластикового строительного кирпича/$ также подходит для строительства.$(p)Эти кирпичи также обладают преимуществом отличного покрытия пола, так как увеличивают скорость ходьбы!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:plastic_brick_red",
+      "recipe2": "pneumaticcraft:smooth_plastic_brick_red",
+      "text": "Рецепты для других цветов вы можете угадать"
+    },
+    {
+      "type": "smelting",
+      "recipe": "pneumaticcraft:plastic_sheet_from_brick",
+      "recipe2": "pneumaticcraft:plastic_sheet_from_smooth_brick",
+      "text": "Вы можете плавить кирпичи обратно в пластиковые листы"
+    }
+  ]
+}

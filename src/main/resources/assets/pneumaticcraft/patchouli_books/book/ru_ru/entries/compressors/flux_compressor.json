@@ -1,0 +1,17 @@
+{
+  "name": "Флакс-компрессор",
+  "icon": "pneumaticcraft:flux_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Флакс-компрессор/$ преобразует $(thing)Энергию Forge/$ (совместимую с $(thing)Redstone Flux/$ и энергетическими системами различных других модов) в $(l:base_concepts/pressure)сжатый воздух/$. Он потребляет базово 40 Флакс в тик, но может быть улучшен с помощью $(l:base_concepts/upgrades#speed)скоростных улучшений/$.$(p)Флакс-компрессор имеет емкость 100,000 Флакс и принимает Флакс с удвоенной скоростью от использования."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание $(item)Флакс-компрессора/$$(p)Этот генератор должен быть $(l:base_concepts/heat)охлажден/$, так как его эффективность уменьшается с повышением температуры, до тех пор, пока воздух не перестанет генерироваться вообще.",
+      "recipe": "pneumaticcraft:flux_compressor"
+    }
+  ]
+}

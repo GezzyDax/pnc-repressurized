@@ -1,0 +1,17 @@
+{
+  "name": "Pressure Gauge",
+  "icon": "pneumaticcraft:pressure_gauge",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это компонент для создания других устройств. Он сам по себе не имеет никакого использования."
+    },
+    {
+      "type": "crafting",
+      "text": "Создание Pressure Gauge",
+      "recipe": "pneumaticcraft:pressure_gauge"
+    }
+  ]
+}

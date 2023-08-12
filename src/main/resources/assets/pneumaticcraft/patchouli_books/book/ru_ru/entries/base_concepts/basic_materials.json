@@ -1,0 +1,38 @@
+{
+    "name": "Основные материалы",
+    "icon": "pneumaticcraft:ingot_iron_compressed",
+    "category": "pneumaticcraft:base_concepts",
+    "pages": [
+      {
+        "type": "text",
+        "text": "$(pncr) не генерирует дополнительные руды в земле. Чтобы начать, вам просто понадобятся $(item)Железные слитки/$, которые вы преобразуете в $(item)Сжатые железные слитки$(), используемые во многих рецептах мода.$(p)Для этого выбросьте свои $(item)Железные слитки/$ на землю и вызовите взрыв вблизи. $(item)TNT/$ подойдет, но любой другой взрыв тоже сработает."
+      },
+      {
+        "type": "image",
+        "images": [
+          "pneumaticcraft:textures/patchouli/compressed_iron.png"
+        ],
+        "text": "$(italic)Отойдите назад/$"
+      },
+      {
+        "type": "spotlight",
+        "anchor": "compressed_iron_ingot",
+        "item": "pneumaticcraft:ingot_iron_compressed",
+        "text": "Предупреждение: в результате взрыва вы потеряете около 20% своих слитков. Чтобы избежать этого, вы также можете скрафтить $(item)Сжатые железные слитки/$ в $(l:manufacturing/pressure_chamber)Камере давления/$. Однако, чтобы иметь возможность создать саму $(thing)Камеру давления/$, вам понадобятся $(item)Сжатые железные слитки/$, так что небольшая начальная потеря неизбежна."
+      },
+      {
+        "type": "pneumaticcraft:pressure_chamber",
+        "recipe": "pneumaticcraft:pressure_chamber/compressed_iron_ingot"
+      },
+      {
+        "type": "crafting",
+        "anchor": "compressed_iron_block",
+        "recipe": "pneumaticcraft:compressed_iron_block_from_ingot",
+        "text": "$(item)Блок Сжатого Железа/$ отличный $(l:base_concepts/heat)Теплопроводник/$ и может использоваться для предоставления большего числа граней для присоединения $(l:machines/heat_sink)Тепловых радиаторов/$ к теплогенерирующим машинам. Однако, обратите внимание также на $(l:machines/heat_pipe)Тепловые трубы/$."
+      },
+      {
+        "type": "pneumaticcraft:pressure_chamber",
+        "recipe": "pneumaticcraft:pressure_chamber/compressed_iron_block"
+      }
+    ]
+  }

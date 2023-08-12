@@ -1,0 +1,16 @@
+{
+  "name": "Конденсатор",
+  "icon": "pneumaticcraft:capacitor",
+  "category": "pneumaticcraft:компоненты",
+  "advancement": "pneumaticcraft:пластик",
+  "pages": [
+  {
+  "type": "text",
+  "text": "Это компонент для создания других устройств. Сам по себе не имеет никакого использования."
+  },
+  {
+  "type": "pneumaticcraft:pressure_chamber",
+  "recipe": "pneumaticcraft:pressure_chamber/capacitor"
+  }
+  ]
+  }

@@ -1,0 +1,6 @@
+{
+  "name": "Компрессоры",
+  "description": "Компрессоры - это машины, которые сжимают воздух, чтобы создать давление. Они являются источником энергии для PneumaticCraft.",
+  "icon": "pneumaticcraft:air_compressor",
+  "sortnum": 1
+}

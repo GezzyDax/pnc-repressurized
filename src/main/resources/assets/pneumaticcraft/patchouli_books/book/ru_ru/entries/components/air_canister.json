@@ -1,0 +1,13 @@
+{
+  "name": "Баллон для воздуха",
+  "icon": "pneumaticcraft:air_canister",
+  "category": "pneumaticcraft:компоненты",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+  {
+  "type": "text",
+  "text": "Баллон для воздуха $(item)Air Canister/$ - это компонент для работы с любым $(l:base_concepts/pressure)давимым/$ предметом или инструментом. Его также можно заряжать и разряжать в $(l:machines/charging_station)Станции Зарядки/$. Баллон для воздуха $(item)Air Canister/$ имеет объем 3000 мл и может быть загружен и выгружен."
+  }
+  ]
+  }
+  
